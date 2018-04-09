@@ -3,7 +3,7 @@
   tasks:
   - name: Call the ping module
     ping:
-      data: pong from Ansible
+      data: pongpong
     register: ping_answer
   - name: Output the value of the ping answer
     debug:
